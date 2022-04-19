@@ -1,0 +1,31 @@
+.btn_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8.6rem;
+}
+
+.pokebola {
+  width: 8.6rem;
+  /* left: 18%; */
+}
+
+.poke_btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--red);
+  width: 13.2rem;
+  height: 6.4rem;
+  border-radius: 2rem;
+  border: 2px solid var(--gray);
+}
+
+.poke_btn a {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1rem ;
+}
