@@ -1,0 +1,10 @@
+.fotter_content {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: rgba(200, 64, 64, 0.9);
+  border-radius: 1rem;
+  width: 32rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}

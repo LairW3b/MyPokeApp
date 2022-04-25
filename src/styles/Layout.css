@@ -1,0 +1,15 @@
+.layout {
+  background-image: url('../img/fondoPokebolas.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.pokelogo_layout {
+  display: block;
+  width: 17rem;
+  margin: auto;
+  padding: .8rem;
+}
