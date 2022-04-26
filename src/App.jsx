@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './components/Inicio';
 import Layout from './components/Layout';
-import Principal from './components/Layout';
 
 function App() {
   return (

@@ -1,23 +1,24 @@
 import '../styles/Card.css'
 import cubone from '../img/cubone.png'
 
-const Card = () => {
+const Card = ({id, name, hp, img, height, type, weight, ability, closeCard}) => {
+  
   return (
     <div className="card_content">
       {/* Div boton */}
       <div className="btn_content_close">
-        <div className='btn_close'>
-          <a href="#">x</a>
-        </div>
+        {/* <div > */}
+          <button className='btn_close'onClick={()=>closeCard(id)}>x</button>
+        {/* </div> */}
       </div>
       {/* nombre y hp pokemon */}
       <div className="head_card">
-        <h3>Cubone</h3>
-        <p>120 hp</p>
+        <h3>{name}</h3>
+        <p>{hp} hp</p>
       </div>
       {/* imagen card */}
       <div className="fondo_poke">
-        <img className='pokemon' src={cubone} alt="cubone" />
+        <img className='pokemon' src={img} alt="cubone" />
       </div>
       {/* Informacion del pokemon */}
       <div className='poke_info'>
@@ -26,23 +27,23 @@ const Card = () => {
           <p>Tipo</p>
         </div>
         <div className="info">
-          <p>0.4</p>
-          <p>Solita</p>
+          <p>{height} dm</p>
+          <p>{type}</p>
         </div>
         <div className="titulos">
           <p>Peso</p>
           <p>Habilidad</p>
         </div>
         <div className='info'>
-          <p>6.5 kg</p>
-          <p>Cabeza Roca</p>
+          <p>{weight} hg</p>
+          <p>{ability}</p>
         </div>
-        <div className='titulos'>
+        {/* <div className='titulos'>
           <p>Sexo</p>
         </div>
         <div className='info'>
           <p>Macho</p>
-        </div>
+        </div> */}
       </div>
     </div>
   )

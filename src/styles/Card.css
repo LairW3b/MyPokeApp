@@ -4,6 +4,7 @@
   border: 1rem solid #fdd46b;
   border-radius: 1rem;
   background: linear-gradient(180deg, #E0C668 0%, #DB8929 100%);
+  padding: 1rem;
 }
 
 .btn_content_close {
@@ -22,14 +23,10 @@
   border-radius: 50% ;
   background-color: var(--red);
   padding: 1rem;
-}
-
-.btn_close a {
   color: var(--gray);
+  text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700; 
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .head_card {
@@ -53,16 +50,16 @@
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   width: 28rem;
-  height: 23rem;
+  height: 25rem;
   margin: .2rem auto;
   border: .5rem solid var(--border_card);
 }
 
 .pokemon {
   display: block;
-  width: 16rem;
+  width: 26rem;
   margin: auto;
-  margin-top: 2rem;
+  filter: drop-shadow(.8rem .8rem .5rem rgba(0, 0, 0, 0.7));
 }
 
 .poke_info {

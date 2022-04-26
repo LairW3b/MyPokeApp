@@ -3,8 +3,8 @@
   justify-content: space-around;
   align-content: center;
   background-color: rgba(200, 64, 64, 0.9);
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
   width: 32rem;
   margin: auto;
-  margin-bottom: 2rem;
+  padding: 1rem;
 }
