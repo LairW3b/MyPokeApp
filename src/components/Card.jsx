@@ -1,10 +1,12 @@
 import '../styles/Card.css'
-import { capitalLetter, dmAcm, hgAkg, mayusculas } from '../helpers'
+import { dmAcm, hgAkg, background } from '../helpers'
 
 const Card = ({id, name, hp, img, height, type, weight, ability, closeCard}) => {
   
+  
+  
   return (
-    <div className="card_content">
+    <div className={background(type)}>
       {/* Div boton */}
       <div className="btn_content_close">
         {/* <div > */}

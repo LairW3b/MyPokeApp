@@ -3,9 +3,67 @@
   width: 32rem;
   border: 1rem solid #fdd46b;
   border-radius: 1rem;
-  background: linear-gradient(180deg, #E0C668 0%, #DB8929 100%);
+  /* background: linear-gradient(180deg, #E0C668 0%, #DB8929 100%); */
   padding: 1rem;
 }
+
+.card_steel {
+  background: linear-gradient(180deg, #BEBEBE 0%, #605D5C 100%);
+}
+
+.card_water {
+  background: linear-gradient(180deg, #1CBEEF 0%, #056A9C 100%);
+}
+
+.card_bug {
+  background: linear-gradient(180deg, #6CB959 0%, #016835 100%);
+}
+
+.card_electric {
+  background: linear-gradient(180deg, #FDFB89 0%, #FEE90E 100%);
+}
+
+.card_ghost {
+  background: linear-gradient(180deg, #C58BBD 0%, #824699 100%);
+}
+
+.card_fire {
+  background: linear-gradient(180deg, #E08568 0%, #DB5429 100%);
+}
+
+.card_fairy {
+  background: linear-gradient(180deg, #F18EB1 0%, #B21C62 100%);
+}
+
+.card_hielo {
+  /* lleva agua */
+}
+
+.card_fighting {
+  background: linear-gradient(180deg, #E6A73E 0%, #A44C33 100%);
+}
+
+.card_normal {
+  background: linear-gradient(180deg, #E3DED5 0%, #BAB3A5 100%);
+}
+
+.card_grass {
+  background: linear-gradient(180deg, #C4DE8E 0%, #82AC73 100%);
+}
+
+.card_psychic {
+  background: linear-gradient(180deg, #CC86B9 0%, #6950A3 100%);
+}
+
+.card_ground {
+  background: linear-gradient(180deg, #E0C668 0%, #DB8929 100%);
+}
+
+.card_dark {
+  background: linear-gradient(180deg, #334654 0%, #2a251f 100%);
+}
+
+
 
 .btn_content_close {
   display: flex;
