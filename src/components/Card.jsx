@@ -1,5 +1,5 @@
 import '../styles/Card.css'
-import cubone from '../img/cubone.png'
+import { capitalLetter, dmAcm, hgAkg, mayusculas } from '../helpers'
 
 const Card = ({id, name, hp, img, height, type, weight, ability, closeCard}) => {
   
@@ -27,7 +27,7 @@ const Card = ({id, name, hp, img, height, type, weight, ability, closeCard}) => 
           <p>Tipo</p>
         </div>
         <div className="info">
-          <p>{height} dm</p>
+          <p>{dmAcm(height)} m</p>
           <p>{type}</p>
         </div>
         <div className="titulos">
@@ -35,7 +35,7 @@ const Card = ({id, name, hp, img, height, type, weight, ability, closeCard}) => 
           <p>Habilidad</p>
         </div>
         <div className='info'>
-          <p>{weight} hg</p>
+          <p>{hgAkg(weight)} kg</p>
           <p>{ability}</p>
         </div>
         {/* <div className='titulos'>
