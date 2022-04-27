@@ -36,7 +36,7 @@ export const background = (type) => {
     return `${card} card_normal`
   }else if (type === 'Grass') {
     return `${card} card_grass`
-  }else if (type === 'Psychic') {
+  }else if (type === 'Psychic'||type === 'Poison') {
     return `${card} card_psychic`
   }else if (type === 'Ground') {
     return `${card} card_ground`

@@ -9,9 +9,44 @@
   height: 100%;
 }
 
+.layout_search {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .layout_search {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .pokelogo_layout {
-  display: block;
+  /* display: block; */
   width: 17rem;
-  margin: auto;
-  padding: .8rem;
+  /* margin: auto; */
+  padding: 1rem;
+}
+
+.pokelogo_layout {
+  width: 20rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width:768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width:992px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

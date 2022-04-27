@@ -32,7 +32,6 @@ const Layout = () => {
           weight: resultado.weight,
           ability: capitalLetter(resultado.abilities[0].ability.name)
         }
-        console.log(typeof(pokemon.height));
         setError(false)
         setPokemones(oldPokemones => [...oldPokemones, pokemon])
       }
@@ -51,36 +50,39 @@ const Layout = () => {
 
   return (
     <div className="layout">
-      <Link to='/'>
-        <img
-          className='pokelogo_layout'
-          src={pokelogo}
-          alt="Pokelogo" />
-      </Link>
-      <Search
-        onSearch={onSearch}
-      />
-
-      {error ? (
-        <Error />
-      ) : (
-        pokemones.length === 0 ? (
-          <Default closeCard={closeCard} />
-        ) : (pokemones.map(p =>
-          <Card
-            key={p.id}
-            id={p.id}
-            name={p.name}
-            hp={p.hp}
-            img={p.img}
-            height={p.height}
-            type={p.type}
-            weight={p.weight}
-            ability={p.ability}
-            closeCard={closeCard}
-          />
-        ))
-      )}
+      <div className="layout_search">
+        <Link to='/'>
+          <img
+            className='pokelogo_layout'
+            src={pokelogo}
+            alt="Pokelogo" />
+        </Link>
+        <Search
+          onSearch={onSearch}
+        />
+      </div>
+      <div className="cards">
+        {error ? (
+          <Error />
+        ) : (
+          pokemones.length === 0 ? (
+            <Default closeCard={closeCard} />
+          ) : (pokemones.map(p =>
+            <Card
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              hp={p.hp}
+              img={p.img}
+              height={p.height}
+              type={p.type}
+              weight={p.weight}
+              ability={p.ability}
+              closeCard={closeCard}
+            />
+          ))
+        )}
+      </div>
 
 
       <Fotter />
