@@ -7,6 +7,13 @@
   z-index: 5;
 }
 
+@media (min-width: 1050px){
+  .btn_content {
+    justify-content: left; 
+    margin-left: 40rem;
+  }
+}
+
 .pokebola {
   width: 8.6rem;
   margin-right: .7rem;

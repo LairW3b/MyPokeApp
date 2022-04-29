@@ -9,46 +9,94 @@
 }
 
 .poke-image {
-  display: flex;
-  flex-direction: column;
-  /* justify-items: center; */
-  padding: 3rem;
-  gap: 52vh;
+  display: grid;
+  grid-template-rows:  1fr 25rem 1fr;
+  align-items: center;
+  margin: 1rem;
 }
 
-/** Charizard */
+@media (min-width: 510px){
+  .poke-image {
+    grid-template-rows: 1fr 27rem 1fr;
+  }
+}
+
+@media (min-width: 685px){
+  .poke-image {
+    grid-template-rows: 1fr 22rem 1fr;
+  }
+}
+
+@media (min-width: 880px) {
+  .poke-image {
+    grid-template-rows: 1fr 25rem 1fr;
+  }
+}
+
+@media (min-width: 1050px) {
+  .poke-image {
+    grid-template-rows: 1fr 0fr 1fr;
+  }
+}
+
+/**  Charizard */
 .charizard {
   position: fixed;
   max-width: 190%;
-  margin-left: -4rem;
+  margin-left: -3rem;
 }
 
-/*@media (min-width: 990px) {
+@media (min-width: 510px) {
+  .charizard {
+    width: 150%;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 680px) {
+  .charizard {
+    width: 120%;
+    margin-left: 15rem;
+  }
+}
+
+@media (min-width: 880px) {
+  .charizard {
+    width: 100%;
+    margin-left: 30rem;
+  }
+}
+
+@media (min-width: 1050px) {
   .charizard {
     width: 90%;
-    margin-left: 40%;
-    margin-top: -10%;
+    margin-left: 55rem;
+    margin-top: -10rem;
   }
-}*/
+}
+
+@media (min-width: 1115px){
+  .charizard {
+    width: 80%;
+  }
+}
 
 /** PokeLogo */
 .pokelogo {
   z-index: 5;
 }
-/*.pokelogo { 
-  /* position: absolute; */
-  /* top: 2.5rem; */
-  /*z-index: 20;
-  width: 300px;
-} */
 
-/*
-@media (min-width: 768px) {
+@media (min-width: 510px) {
   .pokelogo {
-    width: 54%;
-    transform: rotate(-10.1deg);
-    left: 4rem;
-    top: 3rem;
+    display: block;
+    margin: auto;
+    width: 40rem;
   }
+}
 
-} */
+@media (min-width: 1050px){
+  .pokelogo {
+    width: 70rem;
+    margin: 5rem 10rem;
+  }
+}

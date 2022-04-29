@@ -6,5 +6,19 @@
   border-radius: 1rem 1rem 0 0;
   width: 32rem;
   margin: auto;
-  padding: 1rem;
+}
+
+.fotter_content a {
+  display: grid;
+  align-items: center;
+}
+
+@media (min-width: 999px){
+  .fotter_content {
+    width: 20rem;
+  }
+
+  .fotter_content a img {
+    width: 5rem;
+  }
 }

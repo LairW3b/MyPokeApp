@@ -9,6 +9,7 @@ const Inicio = () => {
       <img src={Charizard} alt="Charizard" className="charizard" />
       <div className="poke-image">
         <img src={Pokelogo} alt="logo pokemon" className="pokelogo" />
+        <div></div>
         <BtnPokeball />
       </div>
     </div>
