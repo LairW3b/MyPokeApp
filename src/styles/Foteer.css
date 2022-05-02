@@ -16,6 +16,7 @@
 @media (min-width: 999px){
   .fotter_content {
     width: 20rem;
+    border-radius: 1rem;
   }
 
   .fotter_content a img {

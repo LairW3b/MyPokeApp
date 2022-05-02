@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import pokelogo from '../img/pokelogo.png'
+import pokelogo from '../img/pokelogo.webp'
 import '../styles/Layout.css'
 import Search from './Search'
 import Card from './Card'

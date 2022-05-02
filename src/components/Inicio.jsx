@@ -1,5 +1,5 @@
-import Pokelogo from '../img/pokelogo.png'
-import Charizard from '../img/Charizard.png'
+import Pokelogo from '../img/pokelogo.webp'
+import Charizard from '../img/Charizard.webp'
 import '../styles/Inicio.css'
 import BtnPokeball from './BtnPokeball'
 
