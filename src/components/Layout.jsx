@@ -1,13 +1,13 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { capitalLetter } from '../helpers'
 import pokelogo from '../img/pokelogo.webp'
-import '../styles/Layout.css'
 import Search from './Search'
 import Card from './Card'
 import Fotter from './Fotter'
 import Error from './Error'
-import { useState } from 'react'
 import Default from './Default'
-import { capitalLetter } from '../helpers'
+import '../styles/Layout.css'
 
 const Layout = () => {
 
@@ -37,7 +37,6 @@ const Layout = () => {
       }
     } catch {
       setError(true)
-      // console.log('error')
     }
   }
 
@@ -45,8 +44,6 @@ const Layout = () => {
     const arrayPoke = pokemones.filter(pokemon => pokemon.id !== id)
     setPokemones(arrayPoke)
   }
-
-
 
   return (
     <div className="layout">
@@ -66,7 +63,7 @@ const Layout = () => {
           <Error />
         ) : (
           pokemones.length === 0 ? (
-            <Default closeCard={closeCard} />
+            <Default/>
           ) : (pokemones.map(p =>
             <Card
               key={p.id}
@@ -83,8 +80,6 @@ const Layout = () => {
           ))
         )}
       </div>
-
-
       <Fotter />
     </div>
   )

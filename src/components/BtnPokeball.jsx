@@ -1,6 +1,6 @@
-import '../styles/Pokeball.css'
-import Pokeball from '../img/pokeball.png'
 import { Link } from 'react-router-dom'
+import Pokeball from '../img/pokeball.webp'
+import '../styles/Pokeball.css'
 
 const BtnPokeball = () => {
   return (

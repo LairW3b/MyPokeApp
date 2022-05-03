@@ -1,7 +1,7 @@
 import Pokelogo from '../img/pokelogo.webp'
 import Charizard from '../img/Charizard.webp'
-import '../styles/Inicio.css'
 import BtnPokeball from './BtnPokeball'
+import '../styles/Inicio.css'
 
 const Inicio = () => {
   return (

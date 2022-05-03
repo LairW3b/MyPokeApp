@@ -1,7 +1,6 @@
 .content_error {
   width: 33rem;
   margin: auto;
-  /* background-color: rgba(255, 0, 0, 0.856); */
   border-radius: 1rem;
   text-align: center;
 }
@@ -14,7 +13,7 @@
 
 @media (min-width: 990px) {
   .content_error {
-    margin: 4rem 0rem 4rem 115%;
+    margin: 1rem 0rem 1.5rem 115%;
   }
 }
 

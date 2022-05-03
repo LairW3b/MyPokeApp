@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { capitalLetter } from '../helpers'
 import Card from './Card'
 
-const Default = ({ closeCard }) => {
+const Default = () => {
 
   const [poke, setPoke] = useState([])
 
@@ -41,7 +41,6 @@ const Default = ({ closeCard }) => {
         type={poke.type}
         weight={poke.weight}
         ability={poke.ability}
-        closeCard={closeCard}
       />
     </div>
   )

@@ -3,8 +3,8 @@
   justify-content: space-around;
   align-content: center;
   background-color: rgba(200, 64, 64, 0.9);
-  border-radius: 1rem 1rem 0 0;
-  width: 32rem;
+  border-radius: 1rem;
+  width: 30rem;
   margin: auto;
 }
 
@@ -15,11 +15,11 @@
 
 @media (min-width: 999px){
   .fotter_content {
-    width: 20rem;
+    width: 25rem;
     border-radius: 1rem;
   }
 
   .fotter_content a img {
-    width: 5rem;
+    width: 9rem;
   }
 }

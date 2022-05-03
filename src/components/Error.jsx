@@ -1,5 +1,5 @@
 import '../styles/Error.css'
-import sad from '../img/pikaSad.png'
+import sad from '../img/pikaSad.webp'
 
 const Error = () => {
   return (

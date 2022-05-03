@@ -17,7 +17,7 @@ const Fotter = () => {
         />
       </a>
       <a 
-        href="https://github.com/LairW3b" 
+        href="https://github.com/LairW3b/MyPokeApp" 
         target='_blank'
       >
         <img
@@ -26,7 +26,7 @@ const Fotter = () => {
           className="images"
         />
       </a>
-      <a 
+      {/* <a 
         href="https://www.facebook.com/LairW3b"
         target='_blank'
       >
@@ -35,7 +35,7 @@ const Fotter = () => {
           alt="logo facebook"
           className="images"
         />
-      </a>
+      </a> */}
     </div>
 
   )
