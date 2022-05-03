@@ -1,7 +1,7 @@
 import '../styles/Foteer.css'
 import git from '../img/github.svg'
 import link from '../img/Linkedin.svg'
-import face from '../img/facebook.svg'
+// import face from '../img/facebook.svg'
 
 const Fotter = () => {
   return (
@@ -9,6 +9,7 @@ const Fotter = () => {
       <a 
         href="https://www.linkedin.com/in/lair-rico-g-825328199/" 
         target='_blank'
+        rel="noopener"
       > 
         <img
           src={link}
@@ -19,6 +20,7 @@ const Fotter = () => {
       <a 
         href="https://github.com/LairW3b/MyPokeApp" 
         target='_blank'
+        rel="noopener"
       >
         <img
           src={git}
