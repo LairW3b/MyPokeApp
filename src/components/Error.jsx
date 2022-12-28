@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/Error.css'
 import sad from '../img/pikaSad.webp'
 

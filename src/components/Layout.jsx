@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { capitalLetter } from '../helpers'
 import pokelogo from '../img/pokelogo.webp'
@@ -80,7 +80,9 @@ const Layout = () => {
           ))
         )}
       </div>
-      <Fotter />
+      <div className='layout-footer'>
+        <Fotter />
+      </div>
     </div>
   )
 }

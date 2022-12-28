@@ -18,6 +18,12 @@ html {
 body {
   font-family: var(--font);
   line-height: 1.5;
+  background-image: url('../src/img/fondoPokebolas.webp');
+  background-position: center center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  padding-bottom: 2rem; 
+  height: 100vh;
 }
 img {
   max-width: 100%;
@@ -28,3 +34,5 @@ img {
   margin: 0 auto;
   width: 95%;
 }
+
+

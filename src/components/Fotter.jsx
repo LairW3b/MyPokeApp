@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/Foteer.css'
 import git from '../img/github.svg'
 import link from '../img/Linkedin.svg'

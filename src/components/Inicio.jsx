@@ -1,3 +1,4 @@
+import React from 'react'
 import Pokelogo from '../img/pokelogo.webp'
 import Charizard from '../img/Charizard.webp'
 import BtnPokeball from './BtnPokeball'

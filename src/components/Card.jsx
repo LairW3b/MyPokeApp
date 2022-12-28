@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/Card.css'
 import { dmAcm, hgAkg, background } from '../helpers'
 

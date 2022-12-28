@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { capitalLetter } from '../helpers'
 import Card from './Card'
 
